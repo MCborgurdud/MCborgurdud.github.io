@@ -52,7 +52,10 @@ overflow: hidden;
 </div>
 </div>
 <script>
-// Removed JavaScript related to toggling the menu since the button is gone
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
 </script>
 </body>
 </html>
