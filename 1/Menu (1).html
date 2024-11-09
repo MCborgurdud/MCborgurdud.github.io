@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCborduds Menu</title>
+    <title>Start Page Of Syfer Menu</title>
     <style>
         body {
             display: flex;
@@ -16,7 +16,8 @@
             font-family: Arial, sans-serif;
         }
 
-        button {
+        .start-button {
+            display: inline-block;
             padding: 15px 30px;
             font-size: 24px;
             font-weight: bold;
@@ -24,26 +25,19 @@
             border-radius: 5px;
             background-color: #4CAF50;
             color: white;
+            text-decoration: none;  /* Remove underline */
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
 
-        button:hover {
+        .start-button:hover {
             background-color: #45a049;
         }
     </style>
 </head>
 <body>
 
-    <button id="startButton">Start</button>
-
-    <script>
-        // JavaScript to handle button click
-        document.getElementById("startButton").addEventListener("click", function() {
-            <button class="Button" onclick="window.location.href='Pages/Home-Page.html';">Start</button>
-            // You can add more actions here, such as redirecting or executing a function
-        });
-    </script>
+    <a href="home-page.html" class="start-button">Start</a>
 
 </body>
 </html>
