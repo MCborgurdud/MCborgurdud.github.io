@@ -25,4 +25,6 @@
 <body>
     <button onclick="location.href='Menu.html'">Start</button>
 </body>
+    <a href="Menu.html">Go to Menu</a> 
 </html>
+    
