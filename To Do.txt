@@ -1,0 +1,9 @@
+﻿1. Fix redirects
+2. Make a stupid.htlm file
+3. Try to fix the long urls
+4. Add more stuff
+5. Make an about page, Probably through a .txt file idk
+
+
+*********************************************************************************************************
+WIP
