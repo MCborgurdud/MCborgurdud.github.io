@@ -53,11 +53,17 @@
             border-radius: 8px; /* Rounded corners */
             overflow: hidden; /* Ensure content doesn't overflow */
             width: 200px; /* Set a fixed width for movie cards */
+            height: 300px; /* Set a fixed height for movie cards to ensure uniformity */
+            display: flex; /* Use flexbox to align content */
+            flex-direction: column; /* Align content vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
         }
 
         .MovieCard img {
-            width: 100%; /* Make image fill the card */
-            height: auto; /* Maintain aspect ratio */
+            width: 100%; /* Make image fill the card width */
+            height: 200px; /* Set a fixed height for images */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
         }
     </style>
 </head>
@@ -74,24 +80,24 @@
                 <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 1">
             </a>
         </div>
-        
+
         <div class="MovieCard">
             <a href="pizza.html" target="_blank">
                 <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 2">
             </a>
         </div>
-      
+
         <div class="MovieCard">
             <a href="game-pog.html" target="_blank">
                 <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 3">
             </a>
         </div>
-      
-             <div class="MovieCard">
-                 <a href="krunker.html" target="_blank">
-                    <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 3">
-                </a>
-            </div>
-          
+
+        <div class="MovieCard">
+            <a href="krunker.html" target="_blank">
+                <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 4">
+            </a>
+        </div>
+    </div>
 </body>
 </html>
