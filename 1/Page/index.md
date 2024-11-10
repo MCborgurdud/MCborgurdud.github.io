@@ -37,7 +37,6 @@
 </head>
 <body>
 
-    <!-- Update href to point to menu.html -->
     <a href="Home-Page.html" class="start-button">Start</a>
 
 </body>
