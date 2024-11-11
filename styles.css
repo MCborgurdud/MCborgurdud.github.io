@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Importing a font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Default font for the body */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the menu container */
+.menu {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the menu items */
+    background-color: #333; /* Dark background for menu */
+    padding: 10px 0; /* Vertical padding */
+}
+
+/* Styling for menu buttons */
+.menu-button {
+    font-family: 'Roboto', sans-serif; /* Apply the specific font to menu buttons */
+    font-size: 16px; /* Font size for the buttons */
+    font-weight: 700; /* Bold font weight */
+    color: white; /* Text color */
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    margin: 0 10px; /* Margin between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for menu buttons */
+.menu-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Optional: Add styles for active menu button */
+.menu-button.active {
+    background-color: #3e8e41; /* Different color for active button */
+}
