@@ -21,7 +21,7 @@ body {
 
 /* Styling for menu buttons */
 .menu-button {
-    font-family: 'Roboto', sans-serif; /* Apply the specific font to menu buttons */
+    font-family: playfair, serif; /* Apply the specific font to menu buttons */
     font-size: 16px; /* Font size for the buttons */
     font-weight: 700; /* Bold font weight */
     color: white; /* Text color */
