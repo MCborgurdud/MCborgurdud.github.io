@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Games</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            background-color: black; /* Background color for the menu */
+            padding: 15px 0; /* Padding for top and bottom, no left/right padding */
+            text-align: center; /* Center the text within the menu */
+            width: 100%; /* Ensure the menu takes the full width */
+            position: relative; /* Allows for positioning of child elements */
+            left: 0; /* Aligns the menu to the left edge */
+            right: 0; /* Aligns the menu to the right edge */
+        }
+
+        .menu a {
+            color: white; /* Text color for the links */
+            text-decoration: none; /* Remove underline from links */
+            padding: 14px 20px; /* Padding for the links */
+            display: inline-block; /* Makes links behave like block elements */
+            vertical-align: middle; /* Aligns items vertically in the middle */
+            line-height: 20px; /* Control line height for better vertical alignment */
+        }
+
+        .menu a:hover {
+            background-color: gray; /* Background color on hover */
+        }
+
+        /* Optional: Add spacing between the menu items */
+        .menu a:not(:last-child) {
+            margin-right: 10px; /* Spacing between links */
+        }
+
+        /* Styles for the container and movie cards */
+        .container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allows items to wrap to the next line */
+            justify-content: center; /* Center items horizontally */
+            margin: 20px; /* Margin around the container */
+        }
+
+        .MovieCard {
+            margin: 10px; /* Space between movie cards */
+            border: 1px solid #ccc; /* Optional border for styling */
+            border-radius: 8px; /* Rounded corners */
+            overflow: hidden; /* Ensure content doesn't overflow */
+            width: 200px; /* Set a fixed width for movie cards */
+            height: 300px; /* Set a fixed height for movie cards to ensure uniformity */
+            display: flex; /* Use flexbox to align content */
+            flex-direction: column; /* Align content vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+
+        .MovieCard img {
+            width: 100%; /* Make image fill the card width */
+            height: 100%; /* Set a fixed height for images */
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="Home-Page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="container">
+        <div class="MovieCard">
+            <a href="1v1.lol.html" target="_blank">
+                <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 1">
+            </a>
+        </div>
+
+        <div class="MovieCard">
+            <a href="pizza.html" target="_blank">
+                <img src="https://i.ibb.co/vsy01yM/1v1lol-1.jpg" alt="Movie 2">
+            </a>
+        </div>
+
+</body>
+</html>
