@@ -21,7 +21,7 @@ body {
 
 /* Styling for menu buttons */
 .menu-button {
-    font-family: playfair, serif; /* Apply the specific font to menu buttons */
+    font-family: Playfair, serif; /* Apply the specific font to menu buttons */
     font-size: 16px; /* Font size for the buttons */
     font-weight: 700; /* Bold font weight */
     color: white; /* Text color */
@@ -37,10 +37,6 @@ body {
 /* Hover effect for menu buttons */
 .menu-button:hover {
     background-color: #45a049; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly enlarge the button */
-}
-
-/* Optional: Add styles for active menu button */
-.menu-button.active {
-    background-color: #3e8e41; /* Different color for active button */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
