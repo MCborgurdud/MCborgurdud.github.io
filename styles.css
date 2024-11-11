@@ -13,6 +13,7 @@ body {
 
 /* Styling for the menu container */
 .menu {
+    background-color: black; /* Background color for the menu */
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center the menu items */
     background-color: #333; /* Dark background for menu */
