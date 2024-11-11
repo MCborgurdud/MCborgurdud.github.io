@@ -50,8 +50,10 @@ overflow: hidden;
 <iframe class="game-iframe" src="discord.gg"></iframe>
 </div>
 </div>
-<script>
-// Removed JavaScript related to toggling the menu since the button is gone
-</script>
+   <script>
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
