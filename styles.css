@@ -38,3 +38,11 @@ body {
     transform: scale(1.1); /* Slightly enlarge the button */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
+
+.movie-card-img {
+    width: 100%; /* Full width of the card */
+    height: 100%; /* Full height of the card */
+    object-fit: cover; /* Cover the entire area, maintaining aspect ratio */
+    border-top-left-radius: 10px; /* Rounded corners for the top */
+    border-top-right-radius: 10px; /* Rounded corners for the top */
+}
